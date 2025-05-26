@@ -166,7 +166,7 @@ input.focused {
 
 .btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(76, 175, 80, 0.2);
+  box-shadow: 0 4px 12px rgba(58, 206, 98, 0.2);
 }
 
 .btn.loading {

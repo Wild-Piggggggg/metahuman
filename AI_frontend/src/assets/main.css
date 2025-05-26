@@ -1,10 +1,12 @@
 @import './base.css';
 
 #app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  /* max-width: 1280px; */ /* Remove or comment out max-width */
+  /* margin: 0 auto; */   /* Remove or comment out margin */
+  padding: 0; /* Set padding to 0, handle padding inside components/views if needed */
   font-weight: normal;
+  width: 100%; /* Ensure it takes full width */
+  min-height: 100vh; /* Ensure it takes full height */
 }
 
 a,
@@ -30,6 +32,6 @@ a,
   #app {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
+    /* padding: 0 2rem; */
   }
 }
